@@ -1,0 +1,75 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0 ;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: red;
+}
+
+
+
+
+
+* {
+    outline: 1px solid yellow;
+}
+
+.nav {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+
+.logo {
+    float: left;
+    margin-top: 28px;
+    font-size:1.5em;
+}
+
+
+
+.links {
+  float: right;
+  color: #44495b;
+  padding-top: 30px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.75em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.salmon {
+    color: #f06c64;
+}
+
+
+.header {
+    background-color: #2d303a;
+    height: 90px;
+}
+
+.banner {
+    background-colour: #f06c64;
+    text-align: centre;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.banner img {
+    width: 90%;
+    max-width: 950px;
+}
+
+@media screen and (max-width: 550px)
+    .links {
+        padding-top: 8px;
+        flaot: left;
+    }
